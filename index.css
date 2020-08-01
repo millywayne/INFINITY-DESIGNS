@@ -1,6 +1,3 @@
-*{
-  font-family: sans-serif;
-}
 body{
   background-color:blueviolet;
 }
@@ -8,7 +5,7 @@ body{
   display: contents;
   justify-content: space-evenly;
 }
-#first >,#second >div{
+#first ,#second{
   height: 200px;
   width: 20%;
   display:contents;
@@ -32,23 +29,35 @@ body{
   height: 200px;
   width: 20%;
   display:contents;
-  justify-content: center;
-  align-content: inherit;
-  border-bottom:solid blueviolet; 
-}
-*image{
-height: 200px;
-width: 50%;
-padding:20px;
-border:4px solid blue;
-display: block;  
+  image-rendering: auto;
+  align-content:right;
+  border-bottom:solid blueviolet;
 }
 p{
-  height:100%;
+  height:300%;
   width: 50%;
-  font-size: inherit;
+  font-size: 30px;
   font-style: normal;
   font-weight: bold;
+  border: 4px;
+  float: right;
+  flex-direction: column-reverse;
+  font-style: oblique;
 }
-
+div{
+  image-rendering: optimizeQuality;
+  align-items: center;
+}
+h3{
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: fantasy;
+  color: rgb(6, 78, 22);
+  box-shadow: ivory;
+}
+.contacts{
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
 
