@@ -1,31 +1,54 @@
+*{
+  font-family: sans-serif;
+}
+body{
+  background-color:blueviolet;
+}
+#first, #second{
+  display: contents;
+  justify-content: space-evenly;
+}
+#first >,#second >div{
+  height: 200px;
+  width: 20%;
+  display:contents;
+  justify-content: center;
+  align-content: inherit;
+  border-bottom:solid blueviolet;
+}
+#third, #fourth{
+  display: contents;
+  justify-content:space-evenly ;
+}
+#third >, #fourth>div{
+  height: 200px;
+  width: 20%;
+  display:contents;
+  justify-content: center;
+  align-content: inherit;
+  border-bottom:solid blueviolet; 
+}
+#description{
+  height: 200px;
+  width: 20%;
+  display:contents;
+  justify-content: center;
+  align-content: inherit;
+  border-bottom:solid blueviolet; 
+}
 *image{
-    height:100%;
-    width:50%;
-    padding:20px;
-    border:4px solid rgb(1, 7, 8);
-    background-size:contain;
-  }
-  div{
-    text-align:left;
-    padding:20px;
-    text-decoration:none;
-    display:block;
-  }
-  .contacts:hover{
-    background-color:blue;
-    color:rgb(5, 0, 0);
-  }
-  h3{
-    height:100%;
-    width:50%;
-  }
-  p{
-    background-color:#f2f2f2;
-      color:black;
-    position:relative;
-    font-style:bold italic; 
-  }
-  body{
-    color:blue;
-    background-color:#7415ce;
-  }
+height: 200px;
+width: 50%;
+padding:20px;
+border:4px solid blue;
+display: block;  
+}
+p{
+  height:100%;
+  width: 50%;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: bold;
+}
+
+
