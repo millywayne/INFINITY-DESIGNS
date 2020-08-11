@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+}
+p{
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    border: inset;
+    padding: 10px;
+    color:black;
+}
+img{
+    margin-left: 0px;
+    margin: 0;
+    width: 1500px;
+    height: 500px;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+}

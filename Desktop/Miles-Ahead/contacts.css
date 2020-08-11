@@ -1,0 +1,27 @@
+div{
+    font-size: 20px;
+    text-align: center;
+    font-style: inherit;
+    font-weight: bold;
+    height: 100%;
+    width: 80%;
+}
+body{
+    background-color: antiquewhite;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+table{
+    font-size: 18px;
+    text-align: center;
+    border: black;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    color: black;
+}
