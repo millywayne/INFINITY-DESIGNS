@@ -1,0 +1,52 @@
+h1{
+    color: #f2325e;
+    background-color: cornsilk;
+    border: darkgrey;
+    padding-bottom: 4px;
+    font-weight: bolder;
+}
+p{
+  color: #f7325e; 
+  font-family: fantasy; 
+  font-weight: bold;
+}
+.popular{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(235, 235, 139);
+    font-family: fantasy;
+    align-items: center;
+    position: absolute;
+}
+.tropical{
+width: 80%;
+height: 100%;
+background-color: rgb(243, 211, 171);
+font-family: fantasy;
+font-weight: bold;
+align-items: center;
+}
+ul{
+    font-style: italic;
+    color: rgb(39, 39, 236);
+}
+ol{
+    font-size: large;
+    font-weight: bold;
+    font-family: fantasy;
+    color: rgb(52, 97, 8);
+    width:50%;
+    height:50%; 
+    
+}
+div{
+    background-color: cornsilk;
+}
+h3{color: darkblue;
+}
+h2{
+    font-weight: bold;
+    color: rgb(7, 48, 7);
+    font-style: italic;
+    font-family: fantasy;
+}
