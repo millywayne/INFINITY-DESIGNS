@@ -1,68 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">   
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
-     <title>background-image.html</title>
-     <div class="container">
-         <div class="jumbotron">
-    <style type = "text/css">
-        body {
-        background-image: url("images/hero.jpg");
-        width: 700px;
-        height: 300px;
-        }
-        p {
-        background-color: goldenrod;
-        }
-       </style>
-       </div>
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yolomy</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
-    <span class="caret">
- <div class="navigation">
-            <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Services.html">Services</a></li>
-                <li><a href="Contacts.html">Contacts</a></li>
-            </ul>
-            </nav>
-        <div class="panel">
-        <div class="jumbotron">
-           <div class="card card info">
-               <div class="card heading"> 
-        <h1 class="bg-success">Yolomy</h1>
-        <div class="card-body"> 
+  <div class="container">
+    <div class="jumbotron">
+      <div class="navigation bg-success">
+        <nav>
+          <a href="home.html">Home</a>
+          <a href="home.html">Products</a>
+        </nav>
+        <a><img src="products/shop.png"></a>
+      </div>
+      <div class="card bg-dark text-white">
+        <img src="images/hero.jpg" class="card-img">
+        <div class="card-img-overlay">
+          <img src="images/logo.png" alt="">
+          <h1 class="card-title">Yolomy</h1>
+          <h2 class="card-text">Our clothing, your comfort</h2>
+          <p class="card-text">We understand that you need to look good and feel great.</p>
+          <p class="card-text">It all starts with what you are wearing.</p>
         </div>
-        <div class="row">
-            <div class="col-sm">
-                <h4>Men</h4>
+        <a><img src="images/mouse_click.png" alt="centre"></a>
+      </div>
+      <div class="card-footer">
+        <div class="Button">
+          <a href="#" class="btn btn-danger">SEE ALL PRODUCTS</a>
+        </div>
+      </div>
+      <div class="products">
+        <input type="checkbox" id="inlineCheckbox1" value="option1"> Men</label>
+        <label class="checkbox-inline">
+          <input type="checkbox" id="inlineCheckbox2" value="option2">Women</label>
+        <label class="checkbox-inline">
+          <input type="checkbox" id="inlineCheckbox3" value="option3">children </label>
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col mb-4">
+            <button type="button" class="btn btn-outline-dark">Men</button>
+            <div class="card h-80">
+              <label class="checkbox-inline">
+                <img src="products/tshirt.png" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">T-shirt</h5>
+                  <p class="card-text">Available in all sizes.</p>
+                  <h4>Price ksh.1000</h4>
+                </div>
             </div>
-            </div> 
-            <div class="col-sm">
-                <h4>Women</h4>
-                </div> 
-                <div class="col-sm">
-                    <h4>Children</h4>
-                </div>
-                <div class="col-sm">
-                    <a href="products/">See allposts here</a>
-                </div>
-                <div class="card card info">
-                    <div class="card heading">
-                        <h2>Our clothing, Your comfort</h2>
-           </div>
-                   <div class="card body">
-        <p>We understand that you need to look good and feel great. It all starts with what you are wearing.</p>
-                   </div>
-                </div>
-            </span>
- </body>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-80">
+              <img src="products/backpack.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Backpack</h5>
+                <p class="card-text">Only available in black and blue</p>
+                <h4>Price ksh.4000</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-80">
+              <img src="products/pants.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">PANTS-FORCLAZ</h5>
+                <p class="card-text">New shipment with beautiful jungle green and tomato red.</p>
+                <h4>Price ksh.2500</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-outline-dark">Women</button>
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col mb-4">
+            <div class="card h-40">
+              <img src="products/tshirt_ladies.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">T-SHIRT, ladies</h5>
+                <p class="card-text">Available in large and small.</p>
+                <h4>Price ksh.1000</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-60">
+              <img src="products/trekkingshoes.png" class="card-img-top" width="50%" height="50%">
+              <div class="card-body">
+                <h5 class="card-title">TREKKING SHOES</h5>
+                <p class="card-text">Hurry while stocks last</p>
+                <h4>Price ksh.5000</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-80">
+              <img src="products/giacket.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">JACKET</h5>
+                <p class="card-text">They are unisex. Available in all colors.</p>
+                <h4>Price ksh.3500</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-dark text-white">
+        <img src="images/about.jpg" class="card-img">
+        <div class="card-img-overlay">
+          <h1 class="card-title">About Us</h1>
+          <p class="card-text">This is where high fashion clothing is designed from the heart by an amazing team of
+            craftsmen and designers who understand what fashion is.</p>
+        </div>
+      </div>
+      <a><img src="images/twitter_bird.png" height="30px" width="30px"> "SALE: Buy anything for 45% off. Use the promo
+        CODE YOLOMY45 when you buy items"</a>
+      <div class="card-footer">
+        <div class="card bg-dark text-white">
+          <img src="images/twitter_bird.png" class="card-img" width="50%">
+          <div class="card-img-overlay">
+            <h1>Contact us</h1>
+            <h1 class="card-title">Yolomy</h1>
+            <p class="card-text">We are Yolomy, we understand fashion and style. We craft our products with love and
+              diligence.</p>
+            <div class="media">
+              <a><img src="images/twitter.png" alt="twitter.com"></a>
+              <a><img src="images/facebook.png" alt="facebook.com"></a>
+              <a><img src="images/flickr.png" alt="flicker.com"></a>
+              <a><img src="images/g_plus.png" alt="g_plus.com"></a>
+              <a><img src="images/pinterest.png" alt="pinterest.com"></a>
+              <a><img src="images/skype.png" alt="skype.com"></a>
+              <a><img src="images/stumble_upon.png" alt="stumble_upon.com"></a>
+              <a><img src="images/you_tube.png" alt="you_tube.com"></a>
+            </div>
+            <div class="contacts">
+              <h5>CREDITS | PRIVACY | ABOUT | CONTACT</h5>
+              <h4>Yolomy: We Mean Fashion</h4>
+            </div>
+
+            <p>&copy2020 Yolomy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</body>
+
 </html>

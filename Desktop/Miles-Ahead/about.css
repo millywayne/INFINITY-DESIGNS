@@ -25,3 +25,12 @@ img{
     background-color: gray;
     opacity: 1;
 }
+ul:hover{
+    background-color:lemonchiffon;
+    color:blue;
+    border: black;
+    padding: initial;
+    flex-direction: column;
+    text-align:left;
+float: none;
+}

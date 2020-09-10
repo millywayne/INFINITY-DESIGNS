@@ -5,6 +5,7 @@ img{
     border: black;
     background-color: black;
     padding: 1px;
+    animation: reverse;
 }
 p{
     width: 80%;
@@ -25,7 +26,15 @@ ul>li{
     font-family: sans-serif;
 }
 h3{
-    color: green;
+   color: green;
     font-family: serif;
     font-weight: bold;
+}
+ul:hover{
+    background-color:lemonchiffon;
+    color:blue;
+    border: black;
+    padding: initial;
+    flex: initial;
+    text-align:left;
 }

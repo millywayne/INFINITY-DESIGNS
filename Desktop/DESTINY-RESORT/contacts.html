@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css.bootstrap.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="contacts.css">
-    <title>background-image.html</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <title>background-image.html</title>
     <style type = "text/css">
         body {
         background-image: url("background-image.html");
@@ -35,7 +36,10 @@
             <input type="email" class="email" placeholder="Your Email">
         </div>
 
-<div id="submision"> 
+        <div class="panel">
+            <div class="jumbotron">
+               <div class="card card info">
+                   <div class="card heading"> 
     <form onSubmit={this.mySubmitHandler}>
     <p style="color: brown;"> Reservations:</p>
     <select value={services}>
@@ -45,9 +49,14 @@
          <input type="submit" value="Submit" >
     </select>
     </form>
+    <div class="card-footer">
+<div class="panel-footer">
+
+</div>
+    </div>
 </div> 
     </div> 
-    
+    </div>
     <footer>
           <p>&copy2020 Destiny Resort</p>   
   </footer>
