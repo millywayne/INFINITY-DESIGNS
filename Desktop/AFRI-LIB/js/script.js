@@ -18,7 +18,7 @@ function getName() {
     return summary(inputedSummary);
   }
 
-  function getBookupload() {
+  function getBookContent() {
     var inputedupload = document.getElementById("content").value;
     return content(inputedupload);
   }
@@ -35,13 +35,13 @@ function getName() {
    alert("Your book " + " Book name" + ".")
   }
   
-  /*$(document).ready(function () {
+  $(document).ready(function () {
     $("#submit").submit(function () {
       var name = $("input#name").val();
       var title = $("input#title").val();
       var genre = $("input#genre").val();
       var sammury = $("input#summery").val()
-      var upload = $("input#upload")
+      var upload = $("input#content")
   
       alert("Hello " + name + ". Your book has been successfuly received and will be uploaded soon at Afri-lib!"  + "  Thank you for choosing Afrilib!");
   
