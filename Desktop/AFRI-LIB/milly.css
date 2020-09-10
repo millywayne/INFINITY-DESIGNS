@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{
+    background-color: azure;
+    font-family: 'Anton', sans-serif;
+}
+h1{
+    text-align: center;
+    color: goldenrod;
+}
+h3{
+    text-align: center;
+    color: chartreuse;
+}
